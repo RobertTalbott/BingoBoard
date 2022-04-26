@@ -93,4 +93,8 @@ public class HelloController {
         box1.setText("1234343");
     }
 
+    @FXML
+    private void sendChat() {
+        System.out.println("test");
+    }
 }

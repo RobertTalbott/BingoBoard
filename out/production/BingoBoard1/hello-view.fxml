@@ -20,6 +20,7 @@
             <Font size="64.0" />
         </font>
     </Label>
+   <TextField fx:id="chat_bar" onAction="#sendChat" layoutX="14.0" layoutY="106.0" prefHeight="22.0" prefWidth="403.0"/>
     <Button onAction="#onHelloButtonClick" text="Hello!" />
    <GridPane gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="335.0">
       <columnConstraints>
@@ -64,5 +65,4 @@
          <Label fx:id="box24" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
       </children>
    </GridPane>
-   <TextField fx:id="chat_bar" onAction="#sendChat" layoutX="14.0" layoutY="106.0" prefHeight="22.0" prefWidth="403.0"/>
 </VBox>
